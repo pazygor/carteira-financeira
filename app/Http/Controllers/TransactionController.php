@@ -52,7 +52,7 @@ class TransactionController extends Controller
             ]);
         });
 
-        return redirect()->route('dashboard')->with('success', 'Depósito realizado com sucesso!');
+        return redirect()->back()->with('success', 'Depósito realizado com sucesso!');
     }
 
     public function showTransferForm()
@@ -104,7 +104,7 @@ class TransactionController extends Controller
             ]);
         });
 
-        return redirect()->route('dashboard')->with('success', 'Transferência realizada com sucesso!');
+        return redirect()->back()->with('success', 'Trasnferência realizada com sucesso!');
     }
     public function reverse($id)
     {
