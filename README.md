@@ -20,8 +20,8 @@ Sistema de carteira digital com funcionalidades de depósito, transferência ent
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seuusuario/sua-carteira.git
-   cd sua-carteira
+   git clone https://github.com/pazygor/carteira-financeira.git
+   cd carteira-financeira
 Suba o ambiente com Docker:
 
 bash
@@ -42,10 +42,10 @@ Editar
 php artisan migrate --seed
 🔐 Acesso à Aplicação
 URL: http://localhost:8000
+rodar npm install e npm run dev para rodar o front.
+Usuário do banco: user
 
-Usuário de teste: admin@email.com
-
-Senha: password
+Senha do banco: secret
 
 🧪 Funcionalidades
 ✅ Registro e autenticação de usuários
@@ -121,20 +121,5 @@ Sinta-se à vontade para revisar o código, executar testes e simular transferê
 
 📞 Contato
 Ygor Paz
-LinkedIn
+LinkedIn: https://www.linkedin.com/in/ygor-paz-4406411a4/
 pazygor080@gmail.com
-
-yaml
-Copiar
-Editar
-
----
-
-### ✅ Próximos passos:
-- Crie o arquivo `README.md` na raiz do seu projeto e cole o conteúdo acima.
-- Atualize:
-  - O link do repositório `git clone ...`
-  - O nome do container no `docker exec`
-  - O link do LinkedIn, se quiser colocar o seu
-
-Se quiser, posso te ajudar a melhorar ainda mais incluindo prints da aplicação ou instruções extras, como
